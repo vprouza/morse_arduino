@@ -46,13 +46,7 @@ void setup()
 void loop()
 {
 	printText("U SLUNCE"); //print text
-	
-	leds[0] = CRGB::Green;
-	FastLED.show();
-	delay(200);
-	leds[0] = CRGB::Black;
-	FastLED.show();
-	delay(1000);
+	delay(10000);
 }
 
 void dot()
